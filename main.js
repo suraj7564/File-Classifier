@@ -1,9 +1,9 @@
 #!/usr/bin/env node
+//hashbang for Node.js scripts
 let inputArr = process.argv.slice(2);
 let helpObj = require('./commands/help');
 let treeObj = require('./commands/tree');
 let orgnizeObj = require('./commands/organize');
-console.log(inputArr);
 
 // node main.js tree "directoryPath"
 // node main.js organise "directorypath"
